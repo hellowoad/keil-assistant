@@ -1324,7 +1324,7 @@ class ArmTarget extends Target {
     private static getArmClangMacroList(armClangPath: string): string[] {
         try {
             const cmdLine = CmdLineHandler.quoteString(armClangPath, '"')
-                + ' ' + ['--target=arm-arm-none-eabi', '-E', '-dM', '-', '<nul'].join(' ');
+                + ' ' + ['--target=arm-arm-none-eabi', '-mcpu=cortex-m7', '-E', '-dM', '-', '<nul'].join(' ');
 
             const lines = execSync(cmdLine).toString().split(/\r\n|\n/);
             const resList: string[] = [];
