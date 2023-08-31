@@ -1,8 +1,8 @@
 {
-  "name": "keil-vscode-assistant",
-  "displayName": "Keil VSCode Assistant",
+  "name": "hewo-keil-vscode-assistant",
+  "displayName": "my keil assistant support armclang",
   "description": "An assistant for Keil uVision",
-  "version": "1.7.9",
+  "version": "1.8.0",
   "publisher": "jacksonjim",
   "author": "jacksonjim <jacksonjim@foxmail.com>",
   "keywords": [
@@ -333,7 +333,7 @@
     "@typescript-eslint/eslint-plugin": "^6.2.0",
     "@typescript-eslint/parser": "^6.2.0",
     "@vscode/test-electron": "^2.3.2",
-    "@vscode/vsce": "^2.20.0",
+    "@vscode/vsce": "^2.21.0",
     "eslint": "^8.41.0",
     "fast-xml-parser": "^4.2.7",
     "glob": "^8.1.0",
