@@ -3,8 +3,8 @@
   "displayName": "my keil assistant support armclang",
   "description": "An assistant for Keil uVision",
   "version": "1.8.0",
-  "publisher": "jacksonjim",
-  "author": "jacksonjim <jacksonjim@foxmail.com>",
+  "publisher": "hewo",
+  "author": "hellowoad@outlook.com",
   "keywords": [
     "keil",
     "mdk",
@@ -27,11 +27,11 @@
   "main": "./dist/extension.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jacksonjim/keil-assistant.git"
+    "url": "git+https://github.com/hellowoad/keil-assistant.git"
   },
   "bugs": {
-    "url": "https://github.com/jacksonjim/keil-assistant/issues",
-    "email": "2584456014@qq.com"
+    "url": "https://github.com/hellowoad/keil-assistant/issues",
+    "email": "hellowoad@outlook.com"
   },
   "contributes": {
     "configuration": [
