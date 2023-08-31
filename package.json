@@ -38,7 +38,7 @@
       {
         "title": "Keil Assistant",
         "properties": {
-          "KeilAssistant.Keil.InstallationDirectory":{
+          "KeilAssistant.Keil.InstallationDirectory": {
             "type": "string",
             "scope": "machine",
             "markdownDescription": "Keil (MDK/C51/C251) Installation directory (Keil 安装目录) default: C:\\Keil_v5",
@@ -335,14 +335,17 @@
     "@vscode/test-electron": "^2.3.2",
     "@vscode/vsce": "^2.20.0",
     "eslint": "^8.41.0",
+    "fast-xml-parser": "^4.2.7",
     "glob": "^8.1.0",
+    "iconv-lite": "0.6.3",
     "mocha": "^10.2.0",
     "source-map-support": "^0.5.21",
     "ts-loader": "^9.4.4",
     "typescript": "^5.1.6",
     "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4",
-    "fast-xml-parser": "^4.2.7",
-    "iconv-lite": "0.6.3"
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "vsce": "^2.15.0"
   }
 }
